@@ -22,6 +22,7 @@ DOMAIN-SUFFIX,pornemby.maoxiong.cloud
 DOMAIN-SUFFIX,maoxiong.cloud
 # 鸢尾
 DOMAIN-SUFFIX,iris.niceduck.lol
+DOMAIN-SUFFIX,iriscm.kevinchen.vip
 
 payload:
 # Emby Proxy
@@ -47,3 +48,4 @@ payload:
   - DOMAIN-SUFFIX,maoxiong.cloud
 # 鸢尾
   - DOMAIN-SUFFIX,iris.niceduck.lol
+  - DOMAIN-SUFFIX,iriscm.kevinchen.vip
