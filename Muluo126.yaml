@@ -338,6 +338,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Inside:
+    url: https://raw.githubusercontent.com/Muluo126/ClashRule/refs/heads/main/Rule/Inside.list
+    path: ./ruleset/Inside.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http    
   BanAD:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
     path: ./ruleset/BanAD.list
@@ -538,6 +545,7 @@ rule-providers:
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
+  - "RULE-SET,Inside,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
   - "RULE-SET,GoogleFCM,谷歌FCM"
