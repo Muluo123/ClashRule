@@ -217,4 +217,4 @@
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=cutethotw/ClashRule&type=Date)](https://star-history.com/#cutethotw/ClashRule&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Muluo126/ClashRule&type=Date)](https://www.star-history.com/#Muluo126/ClashRule&Date)
