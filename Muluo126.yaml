@@ -236,7 +236,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验
     type: load-balance
     interval: 300
 
@@ -244,7 +244,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验
     type: load-balance
     interval: 300
 
@@ -252,7 +252,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验
     type: url-test
     interval: 300
     tolerance: 50
@@ -261,7 +261,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验
     type: load-balance
     interval: 300
 
@@ -269,7 +269,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验
     type: load-balance
     interval: 300
 
@@ -277,14 +277,14 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验
     type: load-balance
     interval: 300
 
   - name: EMBY节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     include-all: true
-    filter: (?i)EMBY|emby|解锁|Emby|(?<!\\d)0[.][0-9]|Media
+    filter: (?i)EMBY|emby|解锁|Emby|(?<!\\d)0[.][0-9]|Media|实验
     type: select
 
   - name: GLOBAL
