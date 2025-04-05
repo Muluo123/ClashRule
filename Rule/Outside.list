@@ -30,7 +30,3 @@ DOMAIN-SUFFIX,nodeseek.com
 
 # 萌番组
 bangumi.moe
-
-payload: 
-# Github 
-  - DOMAIN-SUFFIX,raw.githubusercontent.com
