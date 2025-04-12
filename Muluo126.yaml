@@ -71,7 +71,7 @@ proxy-groups:
       - 节点选择
       - EMBY节点
       - 手动切换
-      - DIRECT      
+      - DIRECT
   - name: 巴哈姆特
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bahamut.png
     type: select
@@ -344,7 +344,7 @@ rule-providers:
     behavior: classical
     interval: 86400
     format: text
-    type: http    
+    type: http
   BanAD:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
     path: ./ruleset/BanAD.list
@@ -541,6 +541,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Outside:
+    url: https://raw.githubusercontent.com/Muluo126/ClashRule/refs/heads/main/Rule/Outside.list
+    path: ./ruleset/Outside.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
@@ -571,6 +578,7 @@ rules:
   - "RULE-SET,ChinaMedia,国内媒体"
   - "RULE-SET,ProxyMedia,国外媒体"
   - "RULE-SET,ProxyGFWlist,节点选择"
+  - "RULE-SET,Outside,节点选择"
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
