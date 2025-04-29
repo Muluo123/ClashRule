@@ -473,7 +473,7 @@ rule-providers:
     format: text
     type: http
   Emby:
-    url: https://raw.githubusercontent.com/Muluo126/ClashRule/refs/heads/main/Rule/Emby.list
+    url: https://raw.githubusercontent.com/Muluo123/ClashRule/refs/heads/main/Rule/Emby.list?token=GHSAT0AAAAAADA6OMOWCF6LRSVJDDQGRVZW2AQ6ATQ
     path: ./ruleset/Emby.list
     behavior: classical
     interval: 86400
