@@ -3,7 +3,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Proxy.png
     type: select
     proxies:
-      - 自动选择
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -16,18 +15,11 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/select.png
     include-all: true
     type: select
-  - name: 自动选择
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Auto.png
-    type: url-test
-    include-all: true
-    interval: 300
-    tolerance: 50
   - name: 电报消息
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
       - 节点选择
-      - 自动选择
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -41,7 +33,6 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 自动选择
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -55,7 +46,6 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 自动选择
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -92,7 +82,6 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 自动选择
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -197,14 +186,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 自动选择
   - name: 全球直连
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
     type: select
     proxies:
       - DIRECT
       - 节点选择
-      - 自动选择
   - name: 广告拦截
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
@@ -222,7 +209,6 @@ proxy-groups:
     type: select
     proxies:
       - 节点选择
-      - 自动选择
       - DIRECT
       - 香港节点
       - 台湾节点
@@ -301,7 +287,6 @@ proxy-groups:
     proxies:
       - 节点选择
       - 手动切换
-      - 自动选择
       - 电报消息
       - OpenAi
       - 油管视频
