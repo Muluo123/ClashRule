@@ -44,3 +44,6 @@ DOMAIN-SUFFIX,music.makifx.com
 #Autodesk
 DOMAIN-SUFFIX,registeronce.autodesk.com
 DOMAIN-SUFFIX,autodesk.com
+
+#通知转发推送
+DOMAIN-SUFFIX,push.ft07.com
