@@ -48,3 +48,6 @@ DOMAIN-SUFFIX,autodesk.com
 #通知转发推送
 DOMAIN-SUFFIX,push.ft07.com
 DOMAIN-SUFFIX,sctapi.ftqq.com
+
+#歌词api
+DOMAIN-SUFFIX,api.lrc.cx
