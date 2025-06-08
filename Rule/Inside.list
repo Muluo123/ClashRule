@@ -51,3 +51,8 @@ DOMAIN-SUFFIX,sctapi.ftqq.com
 
 #歌词api
 DOMAIN-SUFFIX,api.lrc.cx
+
+#Folo
+DOMAIN-SUFFIX,api.follow.is
+DOMAIN-SUFFIX,openpanel.follow.is
+DOMAIN-SUFFIX,webp.follow.is
