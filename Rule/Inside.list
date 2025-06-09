@@ -56,3 +56,10 @@ DOMAIN-SUFFIX,api.lrc.cx
 DOMAIN-SUFFIX,api.follow.is
 DOMAIN-SUFFIX,openpanel.follow.is
 DOMAIN-SUFFIX,webp.follow.is
+
+#内网穿透
+DOMAIN-SUFFIX,s1.v100.vip
+DOMAIN-SUFFIX,s2.v100.vip
+DOMAIN-SUFFIX,s3.v100.vip
+DOMAIN-SUFFIX,s4.v100.vip
+DOMAIN-SUFFIX,s5.v100.vip
