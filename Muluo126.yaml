@@ -41,6 +41,16 @@ proxy-groups:
       - 韩国节点
       - 手动切换
       - DIRECT
+  - name: TikTok
+    icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/TikTok.png
+    type: select
+    proxies:
+      - 狮城节点
+      - 台湾节点
+      - 日本节点
+      - 美国节点
+      - 韩国节点
+      - 手动切换
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
@@ -58,7 +68,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     type: select
     proxies:
-      - 节点选择
       - EMBY节点
       - 手动切换
       - DIRECT
@@ -222,7 +231,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|专线|隧道
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|隧道
     type: url-test
     interval: 300
     tolerance: 50
@@ -231,7 +240,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Japan.png
     include-all: true
     filter: (?i)日本|川日|东京|大阪|泉日|埼玉|沪日|深日|JP|Japan
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|专线|隧道
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|隧道
     type: url-test
     interval: 300
     tolerance: 50
@@ -240,7 +249,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/United_States.png
     include-all: true
     filter: (?i)美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥|US|United States
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|专线|隧道
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|隧道
     type: url-test
     interval: 300
     tolerance: 50
@@ -249,7 +258,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Taiwan.png
     include-all: true
     filter: (?i)台|新北|彰化|TW|Taiwan
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|专线|隧道
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|隧道
     type: url-test
     interval: 300
     tolerance: 50
@@ -258,7 +267,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Singapore.png
     include-all: true
     filter: (?i)新加坡|坡|狮城|SG|Singapore
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|专线|隧道
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|隧道
     type: url-test
     interval: 300
     tolerance: 50
@@ -267,11 +276,11 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Korea.png
     include-all: true
     filter: (?i)KR|Korea|KOR|首尔|韩|韓
-    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|专线|隧道
+    exclude-filter: (?i)直连|试用|(?<!\\d)0[.][0-9]|实验|流量|隧道
     type: url-test
     interval: 300
     tolerance: 50
-    
+
   - name: EMBY节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Emby.png
     include-all: true
@@ -289,6 +298,7 @@ proxy-groups:
       - 手动切换
       - 电报消息
       - OpenAi
+      - TikTok
       - 油管视频
       - Emby视频
       - 巴哈姆特
@@ -448,6 +458,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Tiktok:
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/TikTok/TikTok.list
+    path: ./ruleset/TikTok.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   Nintendo:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/Nintendo.list
     path: ./ruleset/Nintendo.list
@@ -560,6 +577,7 @@ rules:
   - "RULE-SET,Origin,游戏平台"
   - "RULE-SET,Sony,游戏平台"
   - "RULE-SET,Steam,游戏平台"
+  - "RULE-SET,Tiktok,TikTok"
   - "RULE-SET,Nintendo,游戏平台"
   - "RULE-SET,YouTube,油管视频"
   - "RULE-SET,Emby,Emby视频"
