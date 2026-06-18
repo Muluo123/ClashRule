@@ -26,10 +26,11 @@ DOMAIN-SUFFIX,maoxiong.cloud
 
 # 鸢尾
 DOMAIN-SUFFIX,iris.niceduck.lol
-DOMAIN-SUFFIX,ak4837.iris520.us
-DOMAIN-SUFFIX,iris4837.iris520.us
+DOMAIN-SUFFIX,ak4837.iris520.vip
+DOMAIN-SUFFIX,iris4837.iris520.vip
 DOMAIN-SUFFIX,cdn.irisnb.com
-DOMAIN-SUFFIX,byteiris.iris520.us
+DOMAIN-SUFFIX,byteiris.iris520.vip
+DOMAIN-SUFFIX,byte2.iris520.vip
 
 # 音海拾贝
 DOMAIN-SUFFIX,music2.makifx.com
