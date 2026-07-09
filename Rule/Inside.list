@@ -64,8 +64,14 @@ DOMAIN-SUFFIX,s3.v100.vip
 DOMAIN-SUFFIX,s4.v100.vip
 DOMAIN-SUFFIX,s5.v100.vip
 
+#JST
+DOMAIN-SUFFIX,jsterp.com
+
 #千易ERP
 DOMAIN-SUFFIX,qianyierp.com
 
 #TAG
 DOMAIN-SUFFIX,world.org
+
+#CF直连
+DOMAIN-SUFFIX,cf.iris520.vip
