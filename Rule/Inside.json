@@ -1,0 +1,60 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "noak.me",
+        "api.nopecha.com",
+        "www2.deepl.com",
+        "anydesk.com"
+      ],
+      "domain_suffix": [
+        "noak.me",
+        "oray.net",
+        "quickconnect.to",
+        "akamai.com",
+        "dyndns.com",
+        "dyndns.org",
+        "p.once.im",
+        "g.once.im",
+        "idshare001.me",
+        "anydesk.com",
+        "xiaoyuz.f3322.net",
+        "music.makifx.com",
+        "registeronce.autodesk.com",
+        "autodesk.com",
+        "push.ft07.com",
+        "sctapi.ftqq.com",
+        "api.lrc.cx",
+        "api.follow.is",
+        "openpanel.follow.is",
+        "webp.follow.is",
+        "s1.v100.vip",
+        "s2.v100.vip",
+        "s3.v100.vip",
+        "s4.v100.vip",
+        "s5.v100.vip",
+        "jsterp.com",
+        "aliyuncs.com",
+        "qianyierp.com",
+        "world.org",
+        "irisyyds.top"
+      ]
+    },
+    {
+      "ip_cidr": [
+        "34.150.118.205/32",
+        "34.92.109.8/32",
+        "199.15.79.112/32",
+        "199.15.77.199/32",
+        "199.15.77.232/32",
+        "103.135.250.65/32"
+      ]
+    },
+    {
+      "process_name": [
+        "SunloginClient.exe"
+      ]
+    }
+  ]
+}
