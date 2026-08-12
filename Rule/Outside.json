@@ -1,0 +1,32 @@
+{
+  "route": {
+    "rules": [
+      {
+        "domain": [
+          "gw.sky-ip.net"
+        ],
+        "domain_suffix": [
+          "gw.sky-ip.net",
+          "emby.vault647.com",
+          "gstatic.com",
+          "googleapis.cn",
+          "imgse.com",
+          "binance.com",
+          "bnbstatic.com",
+          "livednow.com",
+          "423down.com",
+          "javdb.com",
+          "nodeseek.com",
+          "bangumi.moe",
+          "music2.makifx.com",
+          "muluo123.online"
+        ],
+        "ip_cidr": [
+          "207.148.64.114/32"
+        ],
+        "action": "route",
+        "outbound": "proxy"
+      }
+    ]
+  }
+}
