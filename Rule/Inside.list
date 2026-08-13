@@ -38,18 +38,18 @@ DOMAIN-SUFFIX,anydesk.com
 # 廣宇
 DOMAIN-SUFFIX,xiaoyuz.f3322.net
 
-#音海识贝
+# 音海识贝
 DOMAIN-SUFFIX,music.makifx.com
 
-#Autodesk
+# Autodesk
 DOMAIN-SUFFIX,registeronce.autodesk.com
 DOMAIN-SUFFIX,autodesk.com
 
-#通知转发推送
+# 通知转发推送
 DOMAIN-SUFFIX,push.ft07.com
 DOMAIN-SUFFIX,sctapi.ftqq.com
 
-#歌词api
+# 歌词api
 DOMAIN-SUFFIX,api.lrc.cx
 
 #Folo
@@ -57,25 +57,28 @@ DOMAIN-SUFFIX,api.follow.is
 DOMAIN-SUFFIX,openpanel.follow.is
 DOMAIN-SUFFIX,webp.follow.is
 
-#内网穿透
+# 内网穿透
 DOMAIN-SUFFIX,s1.v100.vip
 DOMAIN-SUFFIX,s2.v100.vip
 DOMAIN-SUFFIX,s3.v100.vip
 DOMAIN-SUFFIX,s4.v100.vip
 DOMAIN-SUFFIX,s5.v100.vip
 
-#JST
+# JST
 DOMAIN-SUFFIX,jsterp.com
 
-#aliyun
+# aliyun
 DOMAIN-SUFFIX,aliyuncs.com
 
-#千易ERP
+# 千易ERP
 DOMAIN-SUFFIX,qianyierp.com
 
-#TAG
+# TAG
 DOMAIN-SUFFIX,world.org
 
-#CF直连
+# CF直连
 DOMAIN-SUFFIX,irisyyds.top
 DOMAIN-SUFFIX,tapan.top
+
+# 蓝奏云
+DOMAIN-SUFFIX,lanzouv.com
