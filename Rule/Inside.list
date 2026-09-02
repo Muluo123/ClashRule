@@ -13,7 +13,7 @@ IP-CIDR,199.15.77.232/32,no-resolve
 IP-CIDR,103.135.250.65/32,no-resolve
 
 # 自建VPS
-IP-CIDR,56.10.13.31/32,no-resolve
+IP-CIDR,13.212.60.54/32,no-resolve
 
 # 浏览器自动验证码拓展nopecha解除ip封禁
 DOMAIN,api.nopecha.com
